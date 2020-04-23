@@ -15,12 +15,13 @@ float:left;
 border:4px solid black;
 padding:5px;
 margin:5px;
-
+color:green;
+ font-family: "Comic Sans MS", cursive, sans-serif;
 }
 .chicken{
-position:relative;
+position:sticky;
 top:0px;
-left:350px;
+left:370px;
  width:70px;
 height:35px;
   border: 3px groove #73AD21;
@@ -29,20 +30,20 @@ color:yellow;
 }
 .beef
 {
-position:relative;
-  top:0px;
-left:350px;
-  width:70px;
+position:sticky;
+top:0px;
+left:370px;
+ width:70px;
 height:35px;
   border: 3px groove #73AD21;
-background-color:gray;
+background-color:grey;
 color:yellow;
 }
 .sushi
 {
-position:relative;
+position:sticky;
   top:0px;
-left:350px;
+left:370px;
   width:70px;
   height:35px;
   border: 3px solid #73AD21;
@@ -73,11 +74,13 @@ border:4px solid black;
 padding:5px;
 margin:5px;
 width:50%;
+ font-family: "Comic Sans MS", cursive, sans-serif;
+color:blue;
 }
 .chicken{
-position:relative;
+position:sticky;
   top:0px;
-  left:330px;
+  left:420px;
   width:70px;
 height:35px;
   border: 3px groove #73AD21;
@@ -86,9 +89,9 @@ color:white;
 }
 .beef
 {
-position:relative;
+position:sticky;
   top:0px;
-  left:330px;
+  left:420px;
   width:70px;
 height:35px;
   border: 3px groove #73AD21;
@@ -97,9 +100,9 @@ color:yellow;
 }
 .sushi
 {
-position:relative;
+position:sticky;
   top:0px;
-  left:720px;
+  left:830px;
   width:70px;
 height:35px;
   border: 3px solid #73AD21;
@@ -129,39 +132,47 @@ padding:5px;
 margin:5px;
 background-color:powderblue;
 width:100%;
+font-family: "Comic Sans MS", cursive, sans-serif;
+color:green;
 }
 .chicken
 {
-position:relative;
+position:sticky;
   top:0px;
-  left:490px;
+  left:670px;
   width:70px;
 height:35px;
   border: 3px groove #73AD21;
 background-color:pink;
 color:yellow;
+font-family:"Times New Roman", Times, serif;
+
 }
 .beef
 {
-position:relative;
+position:sticky;
   top:0px;
-  left:490px;
+  left:670px;
   width:70px;
 height:35px;
   border: 3px groove #73AD21;
 background-color:gray;
 color:yellow;
+font-family: "Times New Roman", Times, serif;
 }
+
 .sushi
 {
-position:relative;
+position:sticky;
   top:0px;
-  left:490px;
+  left:670px;
   width:70px;
 height:35px;
   border: 3px solid #73AD21;
 background-color:yellow;
 color:blue;
+font-family: "Times New Roman", Times, serif;
+
 }
 .col-m-1 {width: 8.33%;}
 .col-m-2 {width: 16.66%;}
